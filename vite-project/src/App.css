@@ -22,11 +22,9 @@ button{
     font-weight: 500;
 }
 
-.container{
+nav{
     margin: 0 auto;
     max-width: 1280px;
-}
-nav{
     display: flex;
     justify-content: space-between;
     height: 72px;
@@ -39,5 +37,7 @@ nav ul {
 }
 
 .hero {
+    margin: 0 auto;
+    max-width: 1280px;
     display: flex;
 }
