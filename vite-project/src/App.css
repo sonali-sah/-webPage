@@ -23,8 +23,6 @@ button{
 }
 
 nav{
-    margin: 0 auto;
-    max-width: 1280px;
     display: flex;
     justify-content: space-between;
     height: 72px;
@@ -37,7 +35,25 @@ nav ul {
 }
 
 .hero {
-    margin: 0 auto;
-    max-width: 1280px;
     display: flex;
+    align-items: center;
+    height: calc(100vh - 72px)
+}
+.hero h1 {
+    font-weight: 900;
+    line-height: 102px;
+    font-weight: 205px;
+}
+hero p {
+    font-weight: 600;
+    color: var(--gray);
+}
+
+.hero-btn {
+    display: flex;
+    gap: 40px;
+}
+.secondary-btn {
+    background-color: transparent;
+    color: gray;
 }
