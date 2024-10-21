@@ -23,6 +23,8 @@ const HeroSection = () => {
         <img src="/image/shoe_image.png" alt="hero-image" />
       </div>
     </div>
+
+    
   );
 };
 export default HeroSection;
