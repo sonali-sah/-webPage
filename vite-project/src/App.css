@@ -13,12 +13,6 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
-.logo{
-    height: 76px;
-    width: 42.75;
-
-}
-
 button{
     all: unset;
     padding: 6px 16px;
