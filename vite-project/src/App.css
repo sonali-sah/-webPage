@@ -2,6 +2,7 @@
 
 :root {
     --red: red;
+    --gray: gray;
 }
 
 *{
@@ -27,6 +28,10 @@ button{
     font-weight: 500;
 }
 
+.container{
+    margin: 0 auto;
+    max-width: 1280px;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -39,4 +44,8 @@ nav ul {
     display: flex;
     list-style: none;
     gap: 24px;
+}
+
+.hero {
+    display: flex;
 }
